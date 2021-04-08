@@ -1,7 +1,7 @@
 const prod1 = {}
 prod1.nome = 'Smartphone'
 prod1.preco = 1999.99
-prod1['Desconto Legal'] = 0.75 // evitar atributos com espaço
+prod1['desconto'] = 0.75
 
 console.log(prod1)
 
