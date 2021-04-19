@@ -31,3 +31,9 @@ console.log(notasBaixas2)
 const notasMenorQue7 = nota => nota < 7
 const notasBaixas3 = notas.filter(notasMenorQue7)
 console.log(notasBaixas3)
+
+<!-----------------------------------------------------!>
+// Exemplo de callback no browser
+document.getElementsByTagName('body')[0].onclick = function (e) {
+    console.log('O evento ocorreu!')
+}
