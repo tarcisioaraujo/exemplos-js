@@ -7,7 +7,7 @@ function imprimir(nome, indice) {
 fabricantes.forEach(imprimir)
 fabricantes.forEach(fabricante => console.log(fabricante))
 
-<!-----------------------------------------------------!>
+//-------------------------------------------------------
 
 const notas = [7.7, 6.5, 5.2, 8.9, 3.6, 7.1, 9.0]
 
@@ -32,7 +32,8 @@ const notasMenorQue7 = nota => nota < 7
 const notasBaixas3 = notas.filter(notasMenorQue7)
 console.log(notasBaixas3)
 
-<!-----------------------------------------------------!>
+//-------------------------------------------------------
+
 // Exemplo de callback no browser
 document.getElementsByTagName('body')[0].onclick = function (e) {
     console.log('O evento ocorreu!')
