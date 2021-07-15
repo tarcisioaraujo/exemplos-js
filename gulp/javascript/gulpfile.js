@@ -10,7 +10,8 @@ function padrao(cb) {
             comments: false,
             presets: ["env"]
         }))
-        .pipe(uglify())        
+        .pipe(uglify())  
+        .on('error', err => console.log(err))      
         .pipe(concat('codigo.min.js'))
         .pipe(gulp.dest('build'))
 }
