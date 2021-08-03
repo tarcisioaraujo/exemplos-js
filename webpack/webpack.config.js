@@ -25,7 +25,7 @@ module.exports = {
             terserOptions: {
                 ecma: 6,
             },
-        })
+        }),
     ],
     module: {
         rules: [{
@@ -38,14 +38,7 @@ module.exports = {
             ]
         }, {
             test: /\.(png|svg|jpg|gif)$/,
-            use: [
-                {
-                  loader: 'file-loader',
-                  options: {
-                    esModule: false
-                  }
-                }
-              ]
+            use: ['file-loader']
         }]
     }
 }
