@@ -16,9 +16,9 @@ ReactDOM.render(
         <BoaNoite nome="Joaquim" /> */}
         {/* <Saudacao tipo="Bom dia" nome="João"/> */}
         <Pai nome="Paulo" sobrenome="Silva" >            
-            <Filho nome="Antônio" sobrenome="Silva" />
-            <Filho nome="Pedro" sobrenome="Silva" />
-            <Filho nome="Angelica" sobrenome="Silva" />
+            <Filho nome="Antônio"/>
+            <Filho nome="Pedro"/>
+            <Filho nome="Angelica"/>
         </Pai>
     </div>    
 , document.getElementById('root'))
