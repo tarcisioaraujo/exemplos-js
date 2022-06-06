@@ -3,6 +3,6 @@ import './Button.css'
 
 export default props => {    
     return (
-        <button className='button'>0</button>
+        <button className='button'>{props.label}</button>
     )
 }
