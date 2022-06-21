@@ -4,5 +4,8 @@ import React from 'react';
 
 export default prosp =>
     <footer className="footer">
-        Rodapé
+        <span>
+            Desenvolvido com <i className="fa fa-heart text-danger"></i> por
+            <strong> Tarcísio Silva de Araújo</strong>
+        </span>
     </footer>
