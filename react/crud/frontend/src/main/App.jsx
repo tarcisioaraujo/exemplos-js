@@ -1,3 +1,5 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'font-awesome/css/font-awesome.min.css';
 import './App.css';
 import React from 'react';
 
@@ -11,6 +13,6 @@ export default prosp =>
     <div className="app">
         <Logo />
         <Nav />
-        <Main />
+        <Main icon="home" title="Início" subtitle="CRUD"/>
         <Footer />
     </div>
